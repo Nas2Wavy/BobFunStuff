@@ -24,7 +24,7 @@ client.on("ready", () => {
 //On event-------------------
 client.on("message", (message) => {
     //Ignore self messages and log server-------------------
-    if (message.author.bot || message.author.id === jconfig.jennaID || message.channel.id === jconfig.logServerID) return;
+    if (message.author.bot || message.channel.id === jconfig.logServerID) return;
     //Log Messages-------------------
     if (message.attachments.size > 0) {
         var Attachment = (message.attachments).array();
