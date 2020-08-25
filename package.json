@@ -14,6 +14,7 @@
     "fetch": "1.1.0",
     "mathjs":  "7.1.0",
     "cheerio": "1.0.0-rc.3",
+    "request": "2.88.2",
     "oxford-dictionary-api": "1.0.1",
     "urban-dictionary": "2.2.1",
     "jikan-node": "1.2.1"
