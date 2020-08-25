@@ -2,7 +2,7 @@
   "name": "Jenna",
   "description": "Sbot on Discord",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "jenna.js",
   "engines": {
     "node": "12.13.0"
   },
