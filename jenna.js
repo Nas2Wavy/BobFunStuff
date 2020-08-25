@@ -390,5 +390,5 @@ client.on("message", (message) => {
         }
     }
 });
-client.login(jconfig.token);
+client.login(process.env.BOT_TOKEN);
 //Ultra Super Secret Client Token!!!
